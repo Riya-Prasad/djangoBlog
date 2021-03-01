@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400&display=swap');
 
 body {
-  background-color: #bbcfff;
+  font-family: 'Dosis', sans-serif;
+  background-color: #1a1c20;
   color: #ff6464;
   margin-top: 5rem;
 }
@@ -19,27 +21,30 @@ ul {
 }
 
 .container .navbar-brand {
-  color: #3282b8;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #222831;
 }
 
 .container .navbar-brand:hover{
-  color: #52de97;
+  color: #29a19c;
 }
 
 .bg-steel {
-  background-color: #192965;
+  background-color: #ffd880;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #40bfc1;
+  font-size: 1.3rem;
+  color: #fff;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #52de97;
+  color: #29a19c;
 }
 
 .site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .content-section {
@@ -48,10 +53,12 @@ ul {
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 20px;
+  box-shadow: 0 0 8px #ffd880;
+
 }
 
 .article-title {
-  color: #5f6caf;
+  color: #00303f;
 }
 
 a.article-title:hover {
@@ -60,7 +67,7 @@ a.article-title:hover {
 }
 
 .article-content {
-  color: #fe9801;
+  color: #c72c41;
   white-space: pre-line;
 }
 
@@ -71,14 +78,18 @@ a.article-title:hover {
 }
 
 .article-metadata {
-  color: #6c5b7b;
+  color: #184d47;
   padding-bottom: 1px;
   margin-bottom: 4px;
   border-bottom: 1px solid #e3e3e3
 }
 
+.article-metadata a{
+  color: #045762;
+}
+
 .article-metadata a:hover {
-  color: #018383;
+  color: #4e8d7c;
   text-decoration: none;
 }
 
@@ -98,3 +109,27 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+.btn{
+  background-color: #fff;
+  color: #19456b;
+  box-shadow: 0 0 2px #ffd880;
+}
+
+.btn:hover{
+  background-color: #00917c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
